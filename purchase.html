@@ -92,6 +92,9 @@
     // ⭐ URL ของ Google Apps Script
     const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwUGeIiAEu3JkIjCIsQ3WyoJMYA7PZ90vEDrDsOSi6Pc2MHd2VIwbwUFI8GuQtoqK5VeQ/exec';
 
+    // 🔗 Base path for icons (local in irt-register repo)
+    const ICON = 'Github-p/icon';
+
     function Page() {
       const pkgName = "IRT GOLD PC + MB V.5.0";
 
@@ -227,7 +230,7 @@
                 </p>
               </div>
 
-              <a href="index.html" className="block w-full bg-brand-600 text-white px-6 py-4 rounded-xl font-bold hover:bg-brand-700 transition shadow-lg shadow-blue-200">
+              <a href="https://irtgold.github.io/irtgold/" className="block w-full bg-brand-600 text-white px-6 py-4 rounded-xl font-bold hover:bg-brand-700 transition shadow-lg shadow-blue-200">
                 🏠 กลับหน้าหลัก
               </a>
             </div>
@@ -247,7 +250,7 @@
             </div>
             <div className="max-w-2xl mx-auto px-4 relative text-center">
               <div className="flex items-center justify-center gap-4 mb-3">
-                <img src="https://raw.githubusercontent.com/irtgold/irtgold/main/Github-p/icon/irt.png" alt="IRT GOLD" className="w-16 h-16 rounded-2xl shadow-lg" />
+                <img src={`${ICON}/irt.png`} alt="IRT GOLD" className="w-16 h-16 rounded-2xl shadow-lg" />
                 <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight">
                   ลงทะเบียนรับไฟล์
                 </h1>
@@ -366,7 +369,7 @@
                   {/* MT5 */}
                   <div className="p-6 bg-gradient-to-r from-slate-50 to-blue-50 rounded-2xl border border-slate-200 text-center">
                     <div className="w-44 h-44 mx-auto mb-5 rounded-3xl shadow-xl overflow-hidden border-4 border-white">
-                      <img src="https://raw.githubusercontent.com/irtgold/irtgold/main/Github-p/icon/Mt5.png" alt="MT5" className="w-full h-full object-cover" />
+                      <img src={`${ICON}/Mt5.png`} alt="MT5" className="w-full h-full object-cover" />
                     </div>
                     <label className="block text-lg font-semibold text-slate-700 mb-3">
                       เลขบัญชี MT5 (สำหรับ PC) <span className="text-red-500">*</span>
@@ -386,7 +389,7 @@
                   {/* TradingView */}
                   <div className="p-6 bg-gradient-to-r from-slate-50 to-blue-50 rounded-2xl border border-slate-200 text-center">
                     <div className="w-44 h-44 mx-auto mb-5 rounded-3xl shadow-xl overflow-hidden border-4 border-white">
-                      <img src="https://raw.githubusercontent.com/irtgold/irtgold/main/Github-p/icon/Tdv.png" alt="TradingView" className="w-full h-full object-cover" />
+                      <img src={`${ICON}/Tdv.png`} alt="TradingView" className="w-full h-full object-cover" />
                     </div>
                     <label className="block text-lg font-semibold text-slate-700 mb-3">
                       ชื่อผู้ใช้ TradingView (สำหรับ Mobile) <span className="text-red-500">*</span>
@@ -490,21 +493,21 @@
               </div>
               
               <div className="flex justify-center gap-8">
-                <a href="#" className="flex flex-col items-center gap-2 group">
+                <a href="https://lin.ee/sYM0jZJ" target="_blank" rel="noopener" className="flex flex-col items-center gap-2 group">
                   <div className="w-14 h-14 rounded-xl overflow-hidden shadow-lg group-hover:scale-110 transition">
-                    <img src="https://raw.githubusercontent.com/irtgold/irtgold/main/Github-p/icon/Li.png" alt="LINE" className="w-full h-full object-cover" />
+                    <img src={`${ICON}/Li.png`} alt="LINE" className="w-full h-full object-cover" />
                   </div>
                   <span className="text-sm font-semibold text-slate-600">LINE</span>
                 </a>
-                <a href="#" className="flex flex-col items-center gap-2 group">
+                <a href="https://m.me/Meedee.Indi" target="_blank" rel="noopener" className="flex flex-col items-center gap-2 group">
                   <div className="w-14 h-14 rounded-xl overflow-hidden shadow-lg group-hover:scale-110 transition">
-                    <img src="https://raw.githubusercontent.com/irtgold/irtgold/main/Github-p/icon/Chat.png" alt="Messenger" className="w-full h-full object-cover" />
+                    <img src={`${ICON}/Chat.png`} alt="Messenger" className="w-full h-full object-cover" />
                   </div>
                   <span className="text-sm font-semibold text-slate-600">Messenger</span>
                 </a>
-                <a href="#" className="flex flex-col items-center gap-2 group">
+                <a href="mailto:irtgold18@gmail.com" className="flex flex-col items-center gap-2 group">
                   <div className="w-14 h-14 rounded-xl overflow-hidden shadow-lg group-hover:scale-110 transition">
-                    <img src="https://raw.githubusercontent.com/irtgold/irtgold/main/Github-p/icon/Em.png" alt="Email" className="w-full h-full object-cover" />
+                    <img src={`${ICON}/Em.png`} alt="Email" className="w-full h-full object-cover" />
                   </div>
                   <span className="text-sm font-semibold text-slate-600">E-MAIL</span>
                 </a>
@@ -521,8 +524,8 @@
           <footer className="gradient-bg text-white py-6 mt-8">
             <div className="max-w-2xl mx-auto px-4">
               <div className="flex items-center justify-center gap-3">
-                <img src="https://raw.githubusercontent.com/irtgold/irtgold/main/Github-p/icon/irt.png" alt="IRT GOLD" className="w-10 h-10 rounded-xl" />
-                <p className="text-blue-100 text-sm">© 2024 IRT GOLD. All rights reserved.</p>
+                <img src={`${ICON}/irt.png`} alt="IRT GOLD" className="w-10 h-10 rounded-xl" />
+                <p className="text-blue-100 text-sm">© 2025 IRT GOLD. All rights reserved.</p>
               </div>
             </div>
           </footer>
